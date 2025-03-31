@@ -1,7 +1,8 @@
 let nomeCompleto = ""
 nomeCompleto = prompt("Informe seu nome completo")
-console.log(nomeCompleto)
 
+
+function fnTrocarCorDeFundo(){
 let cor = prompt("informe uma cor: \n 1 azul \n2 vermelho \n3 preto \n4 vermelho \n5 rosa \n6 laranja")
 let corDeFundo = null
 
@@ -22,11 +23,9 @@ if(cor == "1"){
 }
 
 document.body.style.backgroundColor = corDeFundo
+}
 
-
-
-
-
+fnTrocarCorDeFundo()
 
 
 
