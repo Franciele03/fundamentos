@@ -1,4 +1,4 @@
-let meses = parseInt(prompt("Digite o número de meses:"));
+let meses = prompt("Digite o número de meses:");
 
 
 let totalDias = meses * 30;
