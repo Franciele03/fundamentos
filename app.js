@@ -42,3 +42,28 @@ function fdIdiomaPortogues(){
     document.getElementyById("menu3").innerText = "CONTACT"
 }
 
+
+function fnDestaque1Original(){
+    document.getElementById("destaque1").src="imagem/destaque01.jpg"
+}
+
+function fnRegistrarContato(){
+    let nome = document.getElementById("nome").value
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagem").value
+    let informacoesCompleta = nome + email + mensagem
+    document.getElementById("informacoes").innerText = informacoesCompleta
+ 
+}
+
+function fnRegistrarContato(){
+    let nome = document.getElementById("nome").value
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagen").value
+    let informacoesCompleta = nome + " - " + email + "<br> " + mensagem
+    document.getElementById("informacoes").innerHTML = informacoesCompleta
+}
+
+document.getElementById("nome").value = ""
+document.getElementById("email").value = ""
+document.getElementById("mensagem").value = ""
